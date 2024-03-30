@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Build and Deploy a Full Stack MERN AI Image Generation App  MidJourney & DALL E Clone
 ![Image Generation App](https://i.ibb.co/p0f27C2/Thumbnail-9.png)
 
@@ -35,6 +34,3 @@ To get a local copy of the project up and running, follow these steps:
 
 1. Clone the repository:
 
-=======
-# myAi
->>>>>>> 3e29293446eb00e1a435da5ab4bffe5a70df95cf
