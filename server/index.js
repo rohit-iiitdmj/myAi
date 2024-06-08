@@ -16,7 +16,7 @@ app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 
 
-
+const PORT = process.env.PORT || 8080;
 app.use('/api/v1/post', postRoutes);
 app.use('/api/v1/dalle', AiRoutes);
 
@@ -28,7 +28,7 @@ app.use('/api/v1/dalle', AiRoutes);
 const startServer = async () => {
   try {
     // connectDB(process.env.MONGODB_URL);
-    app.listen(8080, () => console.log('Server started on port 8080'));
+    app.listen(PORT, () => console.log('Server started on port 8080'));
   } catch (error) {
     console.log(error);
   }
